@@ -1,0 +1,83 @@
+*{
+  color: white;
+}
+
+.container{
+  background: url("src/assets/kbtu_bg.png") no-repeat;
+  background-size: cover;
+  height: 730px;
+  opacity: 0.95;
+}
+
+.words{
+  padding: 10px;
+  position: absolute;
+  top: 220px;
+  left: 100px;
+  background-color: rgba(35, 37, 54, 0.7);
+  border-radius: 8px;
+}
+
+.words h2{
+  margin-top: 20px;
+  font-weight: normal;
+  font-size: 24px;
+}
+
+.words h2 span{
+  font-weight: bold;
+}
+
+.words p{
+  margin-bottom: 20px;
+  font-size: 19px;
+}
+
+.words h1{
+  margin-bottom: 20px;
+  font-size: 45px;
+}
+
+.reg_home button{
+  background: white;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  padding: 3px;
+  font-size: 20px;
+  font-weight: 550;
+  transition: all 0.3s ease 0s;
+}
+
+.reg_home button:hover{
+  cursor: pointer;
+  background-color: #0088a9;
+  color: white;
+}
+
+.reg_home #singin{
+  margin-right: 20px;
+
+}
+
+.devs{
+  padding: 3px;
+  position: absolute;
+  left: 1075px;
+  top: 750px;
+  background-color: rgba(35, 37, 54, 0.7)
+}
+
+
+.devs h3{
+  font-weight: normal;
+}
+
+.devs h3 span{
+  color: #FFD050;
+  font-style: italic;
+}
+
+.devs h4{
+  font-weight: normal;
+}
