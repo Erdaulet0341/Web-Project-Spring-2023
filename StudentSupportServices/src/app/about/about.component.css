@@ -12,6 +12,8 @@ html {
   font-size: 30px;
 }
 
+
+
 .column {
   float: left;
   width: 32%;
@@ -24,6 +26,7 @@ html {
   box-shadow: 0px 4px 8px 4px rgba(0, 0, 0, 0.2);
   margin: 8px;
 }
+
 
 .about-section {
   display: flex;

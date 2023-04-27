@@ -1,0 +1,22 @@
+<div class="bookService">
+    Welcome to Book Service!
+</div>
+
+
+
+<div *ngFor="let book of books" class="main">
+    <div class="bookimg">
+        <img src="{{book.url}}">
+    </div>
+    <div class="details">
+        <div>
+            <span>Title:</span> {{book.title}}
+        </div>
+        <div>
+            <span>Author:</span> {{book.author}}
+        </div>
+        <div>
+            <span>Description:</span> {{book.description}} 
+        </div>
+    </div>
+</div>
