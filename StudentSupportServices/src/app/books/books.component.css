@@ -1,0 +1,40 @@
+img {
+    object-fit: cover;
+    width: 250px;
+}
+
+.bookService {
+    margin-top: 20px;
+    text-align: center;
+}
+
+* {
+    font-size: 22px;
+    font-style: italic;
+}
+
+.main {
+    float: left;
+    margin: 80px;
+    float: left;
+    border: 3px solid rgb(92, 205, 39);
+    width: 250px;
+    background-color: #16c4dc;
+    border-radius: 12px;
+    padding: 40px;
+    overflow-x: hidden;
+    max-height: 350px;
+}
+
+.details div span{
+    font-weight: bold;
+}
+
+.main .bookimg {
+    position: relative;
+    width: 500px;
+}
+
+.details {
+    text-align: center;
+}
