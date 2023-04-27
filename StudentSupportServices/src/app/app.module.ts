@@ -12,6 +12,7 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { CoordinatorComponent } from './coordinator/coordinator.component';
 import { ProfileComponent } from './profile/profile.component';
 import { BooksComponent } from './books/books.component';
+import { FoodsComponent } from './foods/foods.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { BooksComponent } from './books/books.component';
     ContactUsComponent,
     CoordinatorComponent,
     ProfileComponent,
-    BooksComponent
+    BooksComponent,
+    FoodsComponent
   ],
   imports: [
     BrowserModule,
