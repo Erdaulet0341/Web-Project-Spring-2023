@@ -12,11 +12,10 @@ html {
   font-size: 30px;
 }
 
-
-
 .column {
   float: left;
   width: 32%;
+  height: 450px;
   margin-bottom: 16px;
   padding: 0 8px;
 }
@@ -27,6 +26,10 @@ html {
   margin: 8px;
 }
 
+.card img{
+  max-width:100%;
+  max-height:100%;
+}
 
 .about-section {
   display: flex;
@@ -34,8 +37,8 @@ html {
   gap: 30px;
   padding: 30px;
   text-align: center;
-  background-color: #474e5d;
-  color: white;
+  background-color: #f1f1f1;
+  color: black;
 }
 
 .container {
@@ -61,6 +64,7 @@ html {
   width: 100%;
   margin-bottom: 10px;
   border-radius: 4px;
+  transition: all 0.3s ease;
 }
 
 .button:hover {
