@@ -1,5 +1,9 @@
+<<<<<<< HEAD
+import { Component } from '@angular/core';
+=======
 import { Component, OnInit } from '@angular/core';
 import { Shop } from '../Interfaces';
+>>>>>>> 9b92d34539ae426dba9f0e0d9b49c8bb3cacecb2
 import { ShopService } from '../shop.service';
 
 @Component({
@@ -7,6 +11,14 @@ import { ShopService } from '../shop.service';
   templateUrl: './shop.component.html',
   styleUrls: ['./shop.component.css']
 })
+<<<<<<< HEAD
+export class ShopComponent {
+  target = false
+  constructor(private shop: ShopService) {}
+
+  getFetching() {
+    this.target = this.shop.shopFetching()
+=======
 export class ShopComponent implements OnInit{
   shops: Shop[];
 
@@ -22,5 +34,6 @@ export class ShopComponent implements OnInit{
     this.shopService
       .getAllFoods()
       .subscribe((data) =>(this.shops = data))
+>>>>>>> 9b92d34539ae426dba9f0e0d9b49c8bb3cacecb2
   }
 }
