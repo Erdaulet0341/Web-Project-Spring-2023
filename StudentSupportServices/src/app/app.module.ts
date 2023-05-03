@@ -12,11 +12,10 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { CoordinatorComponent } from './coordinator/coordinator.component';
 import { ProfileComponent } from './profile/profile.component';
 import { BooksComponent } from './books/books.component';
-<<<<<<< HEAD
 import { FoodsComponent } from './foods/foods.component';
-=======
 import { ShopComponent } from './shop/shop.component';
->>>>>>> 603c33035c3b4e20e4842ef8bafdc07977332d33
+import { FormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
@@ -30,15 +29,13 @@ import { ShopComponent } from './shop/shop.component';
     CoordinatorComponent,
     ProfileComponent,
     BooksComponent,
-<<<<<<< HEAD
-    FoodsComponent
-=======
+    FoodsComponent,
     ShopComponent
->>>>>>> 603c33035c3b4e20e4842ef8bafdc07977332d33
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
