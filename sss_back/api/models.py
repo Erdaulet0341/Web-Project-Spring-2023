@@ -12,12 +12,18 @@ class Book(models.Model):
     description = models.TextField(default="")
     imageURL = models.TextField(default="")
 
-    def __str__(self) -> str:
-        return f'id = {self.id}, title = {self.title}'
-
 
 class Shop(models.Model):
     name = models.CharField(max_length=100)
     description = models.TextField(default="")
     cost = models.IntegerField(default=0)
     imageURL = models.TextField(default="")
+
+    def __str__(self) -> str:
+        return f'id = {self.id}, title = {self.title}'
+    
+
+
+
+
+
