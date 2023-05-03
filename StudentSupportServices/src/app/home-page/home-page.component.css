@@ -5,7 +5,7 @@
 .container{
   background: url("src/assets/kbtu_bg.png") no-repeat;
   background-size: cover;
-  height: 730px;
+  height: 763px;
   opacity: 0.95;
 }
 
@@ -64,7 +64,7 @@
   padding: 3px;
   position: absolute;
   left: 1075px;
-  top: 750px;
+  top: 717px;
   background-color: rgba(35, 37, 54, 0.7)
 }
 

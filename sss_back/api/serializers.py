@@ -2,13 +2,24 @@ from rest_framework import serializers
 from .models import *
 
 
-class CategorySerializer(serializers.ModelSerializer):
+
+# ModelSerializers
+class FoodSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Category
+        model = Food
         fields = '__all__'
 
 
-class ProductSerializer(serializers.ModelSerializer):
+class BookSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Product
+        model = Book
         fields = '__all__'
+
+
+# Serializers
+class ShopSerializer(serializers.Serializer):
+    id = serializers.IntegerField()
+    name = serializers.CharField()
+    description = serializers.CharField()
+    cost = serializers.IntegerField()
+    imageURL = serializers.CharField()

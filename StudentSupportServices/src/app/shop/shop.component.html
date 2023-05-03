@@ -5,8 +5,9 @@
 </div>
 
 <div class="main">
-  <div class="product-list">
+  <div class="product-list" *ngFor = "let shop of shops">
     <div class="product-item">
+<<<<<<< HEAD
       <img
         src="https://cutur.ru/wp-content/uploads/_pu/0/64722677.jpg"
         alt="Product 1"
@@ -68,4 +69,13 @@
       </div>
     </div>
   </div>
+=======
+      <img src="{{shop.imageURL}}" alt="Product 1">
+      <h2>{{shop.name}}</h2>
+      <p class="description">{{shop.description}}</p>
+      <div class="price">{{shop.cost}} tg</div>
+      <button class="add-to-like">Add to Like</button>
+    </div>
+  </div>
+>>>>>>> 9b92d34539ae426dba9f0e0d9b49c8bb3cacecb2
 </div>

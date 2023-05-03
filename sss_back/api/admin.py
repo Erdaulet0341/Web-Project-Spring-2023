@@ -1,6 +1,14 @@
 from django.contrib import admin
 from .models import *
 
+@admin.register(Food)
+class AdminCompany(admin.ModelAdmin):
+    list_display = ('id', 'name', 'cost')
 
-admin.site.register(Product)
-admin.site.register(Category)
+@admin.register(Shop)
+class AdminCompany(admin.ModelAdmin):
+    list_display = ('id', 'name', 'cost')
+
+@admin.register(Book)
+class AdminCompany(admin.ModelAdmin):
+    list_display = ('id', 'title', 'author')
