@@ -1,10 +1,11 @@
 <div class="login-page">
   <div class="form">
-    <form class="login-form">
+    <div class="login-form">
       <input [(ngModel)]="email" type="text" placeholder="email"/>
       <input [(ngModel)]="password" type="password" placeholder="password"/>
-      <button>login</button>
+      <a href="profile"><button>login</button></a>
       <p class="message">Not registered? <a href="register">Create an account</a></p>
-    </form>
+    </div>
   </div>
+  <router-outlet></router-outlet>
 </div>
