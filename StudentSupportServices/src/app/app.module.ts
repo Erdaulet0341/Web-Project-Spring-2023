@@ -15,9 +15,7 @@ import { CoordinatorComponent } from './coordinator/coordinator.component';
 import { ProfileComponent } from './profile/profile.component';
 import { BooksComponent } from './books/books.component';
 import { FoodsComponent } from './foods/foods.component';
-
 import { ShopComponent } from './shop/shop.component';
-
 import { SettingsComponent } from './settings/settings.component';
 
 @NgModule({
@@ -32,22 +30,18 @@ import { SettingsComponent } from './settings/settings.component';
     CoordinatorComponent,
     ProfileComponent,
     BooksComponent,
-
     FoodsComponent,
     ShopComponent,
     SettingsComponent,
-
-
     FoodsComponent,
-
     ShopComponent
 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
-
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
