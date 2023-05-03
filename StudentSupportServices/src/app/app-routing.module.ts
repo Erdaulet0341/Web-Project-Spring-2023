@@ -8,8 +8,11 @@ import {ContactUsComponent} from "./contact-us/contact-us.component";
 import {CoordinatorComponent} from "./coordinator/coordinator.component";
 import {ProfileComponent} from "./profile/profile.component";
 import { BooksComponent } from './books/books.component';
+<<<<<<< HEAD
 import { FoodsComponent } from './foods/foods.component';
+=======
 import {ShopComponent} from "./shop/shop.component";
+>>>>>>> 603c33035c3b4e20e4842ef8bafdc07977332d33
 
 const routes: Routes = [
   {path: '', component: HomePageComponent},
@@ -21,8 +24,11 @@ const routes: Routes = [
   {path: 'coordinator', component:CoordinatorComponent},
   {path: 'profile', component:ProfileComponent},
   {path: 'books', component: BooksComponent},
-  {path: 'foods', component: FoodsComponent},
-  {path: 'shop', component: ShopComponent},
+<<<<<<< HEAD
+  {path: 'foods', component: FoodsComponent}
+=======
+  {path: 'shop', component: ShopComponent}
+>>>>>>> 603c33035c3b4e20e4842ef8bafdc07977332d33
 ];
 
 @NgModule({
