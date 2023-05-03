@@ -1,0 +1,51 @@
+.main button {
+    width: 265px;
+    height: 50px;
+}
+
+.fetching {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.save-btn {
+    background: greenyellow;
+    border: none;
+}
+
+.part {
+    border: 2px solid #CACACA;
+}
+
+* {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+
+.create-btn {
+    background: rgb(42, 205, 91);
+    margin-top: 20px;
+    border: none;
+}
+
+
+.main {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.book-div {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 50px;
+}
+
+input {
+    text-align: center;
+    padding: 7px;
+}

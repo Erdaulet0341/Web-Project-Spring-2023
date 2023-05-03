@@ -1,0 +1,67 @@
+<div class="fetching">
+    <h1>Data Fetching!</h1>
+</div>
+
+
+<div class="main">
+    <div class="part">
+        <button class="book">BOOKS</button>
+        <div class="book-div">
+            <div>
+                <input type="text" placeholder="Title">
+            </div>
+            <div>
+                <input type="text" placeholder="Author">
+            </div>
+            <div>
+                <input type="text" placeholder="Description">
+            </div>
+            <div>
+                <div>
+                    <button class="create-btn">Create</button>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="part">
+        <button class="book">FOODS</button>
+        <div class="book-div">
+            <div>
+                <input type="text" placeholder="Name">
+            </div>
+            <div>
+                <input type="text" placeholder="Cost">
+            </div>
+            <div>
+                <input type="text" placeholder="Recepts">
+            </div>
+            <div>
+                <div>
+                    <button class="create-btn">Create</button>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="part">
+        <button class="book" (click)="shopFetching()" routerLink="/shop">SHOPS</button>
+        <div class="book-div">
+            <div>
+                <input type="text" placeholder="Name">
+            </div>
+            <div>
+                <input type="text" placeholder="Description">
+            </div>
+            <div>
+                <input type="text" placeholder="Cost">
+            </div>
+            <div>
+                <div>
+                    <button class="create-btn">Create</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
