@@ -3,8 +3,3 @@
 2) Book service
 3) KBTU brand items service
 4) Coordinator service
-
-
-
-
-tt
