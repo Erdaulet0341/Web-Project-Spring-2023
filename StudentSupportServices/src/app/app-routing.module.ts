@@ -23,7 +23,6 @@ const routes: Routes = [
   {path: 'coordinator', component:CoordinatorComponent},
   {path: 'profile', component:ProfileComponent},
   {path: 'books', component: BooksComponent},
-
   {path: 'foods', component: FoodsComponent},
   {path: 'shop', component: ShopComponent}
 

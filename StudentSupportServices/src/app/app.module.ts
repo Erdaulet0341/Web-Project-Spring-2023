@@ -15,6 +15,7 @@ import { BooksComponent } from './books/books.component';
 
 import { FoodsComponent } from './foods/foods.component';
 import { ShopComponent } from './shop/shop.component';
+import { SettingsComponent } from './settings/settings.component';
 
 
 
@@ -32,6 +33,7 @@ import { ShopComponent } from './shop/shop.component';
     BooksComponent,
     FoodsComponent,
     ShopComponent,
+    SettingsComponent,
 
   ],
   imports: [
