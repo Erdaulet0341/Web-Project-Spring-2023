@@ -2,16 +2,20 @@
     Welcome to Food Service!
 </div>
 
-<div *ngFor="let food of foods">
-    <div class="foodphoto">
-        <img src="{{food.img_url}}">
+<div *ngFor="let food of foods" class="main">
+    <div class="main-part">
+        <div class="foodphoto">
+            <img src="{{food.img_url}}">
+        </div>
+        <div class="detail">
+            <div>
+                Name: {{food.name}}
+            </div>
+            <div>
+                Cost: {{food.cost}}$
+            </div>
+        
+            Recepts: {{food.recepts}} 
+        </div>
     </div>
-    <div>
-        Name: {{food.name}}
-    </div>
-    <div>
-        Cost: {{food.cost}}$
-    </div>
-      
-    {{food.recepts}} 
 </div>
